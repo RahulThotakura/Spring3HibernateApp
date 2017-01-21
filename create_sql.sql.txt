@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `Employee` (
+`empid` int(11) NOT NULL AUTO_INCREMENT,
+`empname` varchar(20) NOT NULL,
+`empAge` int(11) NOT NULL,
+`salary` bigint(11) NOT NULL,
+`empaddress` varchar(20) NOT NULL,
+PRIMARY KEY (`empid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
